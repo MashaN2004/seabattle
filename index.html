@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.bg {
+			background-color: black;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="col-7 bg-light mx-auto">
+		<div>
+			<h1 class="task">Морской бой!</h1>
+			<h3>Score: <span class="score">0</span></h3>
+			<h4 class="name4">Корабль с 4 клетками: <span class="score4">0</span></h4>
+			<h4 class="name3">Корабль с 3 клетками: <span class="score3">0</span></h4>
+			<h4 class="name2">Корабль с 2 клетками: <span class="score2">0</span></h4>
+			<h4 class="name1">Корабли с 1 клеткой: <span class="score1">0</span></h4>
+		</div>
+		<!-- Дивы с нумерацией 1, 2, 3 и т.д. -->
+		<div class="row">
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>1</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>2</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>3</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>4</h4>
+			</div>
+			<div class="col-1 px-5  py-3 bg-warning text-center border">
+				<h4>5</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>6</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>7</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border">
+				<h4>8</h4>
+			</div>
+		</div>
+		<!--Линия А-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border ">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+		</div>
+		<!--Линия B-->
+		<div class="row">
+			<div class="col-1  px-5 py-4 bg-warning text-center border">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border yellow">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border green">
+				
+			</div>
+			
+		</div>
+		<!--Линия C-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>C</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border yellow">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border violet">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border green">
+				
+			</div>
+			
+		</div>
+		<!--Линия D-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border violet">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border green">
+				
+			</div>
+			
+		</div>
+		<!--Линия E-->
+		<div class="row">
+			<div class="col-1 px-5 py-4  bg-warning text-center border">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border blue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border blue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border violet">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			
+		</div>
+		<!--Линия F-->
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border violet">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border green ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>G</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border blue">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border blue ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border green ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>H</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border green ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>I</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border yellow">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white" >
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border white">
+				
+			</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-1 px-5 py-4 bg-warning text-center border">
+				<h4>J</h4>
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border yellow">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white">
+				
+			</div>
+			<div class="col-1 px-5 py-4 bg border white ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border blue ">
+				
+			</div>
+			<div class="col-1  px-5 py-4 bg border blue">
+				
+			</div>
+			
+		</div>
+	</div>
+	<script type="text/javascript">
+		let white = document.querySelectorAll('.white');
+		let yellow = document.querySelectorAll('.yellow');
+		let blue = document.querySelectorAll('.blue');
+		let green = document.querySelectorAll('.green');
+		let violet = document.querySelectorAll('.violet')
+		let score = 0;
+		let score1 = 4;
+		let score2 = 6;
+		let score3 = 6;
+		let score4 = 4;
+		document.querySelector('.score').innerHTML = score;
+		document.querySelector('.score1').innerHTML = score1;
+		document.querySelector('.score2').innerHTML = score2;
+		document.querySelector('.score3').innerHTML = score3;
+		document.querySelector('.score4').innerHTML = score4;
+		for(let i = 0; i < 60 ;i = i + 1){
+			white[i].onclick = function(){
+			white[i].style.backgroundImage = "url(https://kartinkinaden.ru/uploads/posts/2020-07/1593666231_25-p-foni-s-morem-60.jpg)";
+			white[i].style.backgroundSize = "100% 100%";
+			}
+		}	
+	
+		for(let i = 0; i < 4 ;i = i +1){
+			yellow[i].onclick = function(){
+			yellow[i].style.backgroundImage = "url(https://www.hanseyachtsag.com/mis/website/document/sealine-f430-photo-exterieur-2018-sealine-f430-exteriow-view-011-4312_-3708700693292620175_1980_0_0.jpg)";
+			yellow[i].style.backgroundSize = "100% 100%";
+			score = score + 1;
+			score1 = score1 - 1;
+			document.querySelector('.score').innerHTML = score;
+			document.querySelector('.score1').innerHTML = score1;
+
+			if (score == 20) {
+				alert('win');
+				for(let i = 0; i < 60 ;i = i +1){
+					white[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					yellow[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					blue[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					green[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					violet[i].style.background = "black";
+				}
+			}
+			if (score1 == 0) {
+				document.querySelector('.name1').style.textDecoration = "line-through";
+			}
+			}	
+		}
+		for(let i = 0; i < 6; i = i +1){
+			blue[i].onclick = function(){
+			blue[i].style.backgroundImage = "url(https://i.ucrazy.ru/files/i/2008.5.10/1210400890_ships__003123_.jpg)";
+			blue[i].style.backgroundSize = "100% 100%";
+			score = score + 1;
+			score2 = score2 - 1;
+			document.querySelector('.score').innerHTML = score;
+			document.querySelector('.score2').innerHTML = score2;
+			if (score == 20) {
+				alert('win');
+				for(let i = 0; i < 60 ;i = i +1){
+					white[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					yellow[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					blue[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					green[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					violet[i].style.background = "black";
+				}
+			}
+			if (score2 == 0) {
+				document.querySelector('.name2').style.textDecoration = "line-through";
+			}
+		}
+			
+		}
+		for(let i = 0; i < 6; i = i +1){
+			green[i].onclick = function(){
+			green[i].style.backgroundImage = "url(https://www.nastol.com.ua/download.php?img=201709/2560x1440/nastol.com.ua-247935.jpg)";
+			green[i].style.backgroundSize = "100% 100%";
+			score = score + 1;
+			score3 = score3 - 1;
+			document.querySelector('.score').innerHTML = score;
+			document.querySelector('.score3').innerHTML = score3;
+
+			if (score == 20) {
+				alert('win');
+				for(let i = 0; i < 60 ;i = i +1){
+					white[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					yellow[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					blue[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					green[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					violet[i].style.background = "black";
+				}
+			}
+			if (score3 == 0) {
+				document.querySelector('.name3').style.textDecoration = "line-through";
+			}
+			}	
+		}
+		for(let i = 0; i < 4; i = i + 1){
+			violet[i].onclick = function(){
+			violet[i].style.backgroundImage = "url(https://img4.goodfon.ru/wallpaper/nbig/3/17/oasis-of-the-seas-lainer-sudno-sverkhu-more-royal-caribbean.jpg)";
+			violet[i].style.backgroundSize = "100% 100%";
+			score = score + 1;
+			score4 = score4 - 1;
+			document.querySelector('.score').innerHTML = score;
+			document.querySelector('.score4').innerHTML = score4;
+
+			if (score == 20) {
+				alert('win');
+				for(let i = 0; i < 60 ;i = i +1){
+					white[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					yellow[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					blue[i].style.background = "black";
+				}
+				for(let i = 0; i < 6 ;i = i +1){
+					green[i].style.background = "black";
+				}
+				for(let i = 0; i < 4 ;i = i +1){
+					violet[i].style.background = "black";
+				}
+			}
+			if (score4 == 0) {
+				document.querySelector('.name4').style.textDecoration = "line-through";
+			}
+			}		
+		}
+	</script>
+</body>
+</html>
